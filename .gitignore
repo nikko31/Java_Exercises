@@ -21,7 +21,8 @@ buildNumber.properties
 #
 # Visual Studio Code
 #
-.settings/
-.classpath
-.project
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
